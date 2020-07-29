@@ -26,17 +26,17 @@ def get_info():
             else:
                 parameters.append(parameter)
         
-        return module_name, module_type, parameters
+
 
 
 
 def make_module(module_name, module_type, parameters):
-    """Make the module and put it in the file."""
+    """Make the module using the info from get_info and put it in the file."""
 
     module = {module_name: {}}
     
     for parameter in parameters:
-        required = input("Is" + parameter + " required (y/n)?")
+        required = input("Is " + parameter + " required (y/n)?")
         
         if required == 'n':
             module[module_name][parameter] = None    
@@ -182,6 +182,8 @@ def edit_tasks(playbook):
 
 import yaml
 
+
+# Shamelessly ripped from stackoverflow
 class bcolors:
     HEADER = '\033[95m'
     OKBLUE = '\033[94m'
