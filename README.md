@@ -11,4 +11,4 @@ Feature ideas:
   Add capability to use variables,
   Use "with_items:",
   automatic syntax checking,
-  
+  Delete empty key value pairs
