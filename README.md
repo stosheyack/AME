@@ -8,7 +8,7 @@ Current features include:
   
   
 Feature ideas:
-  Add capability to use variables
-  Use "with_items:"
-  automatic syntax checking
+  Add capability to use variables,
+  Use "with_items:",
+  automatic syntax checking,
   
